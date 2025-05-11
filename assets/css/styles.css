@@ -3,8 +3,12 @@
 }
 
 :root {
-  --font-one: "Poppins", sans-serif;
-  --font-two: "Sora", sans-serif;
+  --heading-font: "Poppins", sans-serif;
+  --text-font: "Sora", sans-serif;
+  --background-color: #fff2e5;
+  --primary-color: #ff5b2e;
+  --heading-color: #000958;
+  --text-color: #656689;
 }
 
 html {
