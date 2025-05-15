@@ -139,3 +139,132 @@ a {
 .btn__left:hover + .btn__right::before {
   transform: translateX(0);
 }
+
+/* ========= Hero ========== */
+.hero {
+  margin-top: 84px;
+}
+
+.hero__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__media {
+  display: flex;
+  position: relative;
+}
+
+.img-wrap {
+  position: relative;
+  width: 388px;
+  height: 488px;
+  border-radius: 16px;
+  border: 3px solid #fff;
+  background: #fe997b;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.img__pt {
+  padding-top: 24px;
+}
+
+.decor {
+  position: absolute;
+  z-index: -1;
+}
+
+.hero__decor-left {
+  width: 230px;
+  height: 230px;
+  left: -58px;
+  bottom: 10px;
+}
+
+.hero__decor-right {
+  width: 50px;
+  height: 100px;
+  top: 16px;
+  right: -40px;
+}
+
+.img-wrap__small {
+  align-self: flex-end;
+  margin: 0 0 -58px -24px;
+  width: 186px;
+  height: 244px;
+  background: #faa7ad;
+  border: 2px solid #f7dddf;
+}
+
+.hero__list {
+  position: absolute;
+  bottom: -94px;
+  left: 129px;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px 14px 0px 14px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
+}
+
+.hero__item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.hero-item-img__wrap {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #fec23f;
+  overflow: hidden;
+}
+
+.hero-item__img {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.hero-item__content {
+  margin-left: 10px;
+}
+
+.hero-item__title {
+  color: #181e52;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.item__line {
+  margin: 7px 0 0 1px;
+  width: 118px;
+  height: 4px;
+  background-color: #ebecf2;
+  border-radius: 10px;
+}
+
+.item-line__small {
+  margin-top: 6px;
+  width: 39px;
+}
+
+.seperate {
+  margin-bottom: 20px;
+  background: #f2f2f2;
+  width: 222px;
+  height: 2px;
+}
