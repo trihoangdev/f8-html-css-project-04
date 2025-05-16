@@ -1,12 +1,21 @@
 @keyframes move-to-left {
   to {
-    left: -100px;
+    transform: translateX(-80px);
   }
 }
 
 @keyframes move-to-right {
   to {
     z-index: 1;
-    right: -80px;
+    transform: translateX(80px);
+  }
+}
+
+@keyframes move-up-down {
+  from {
+    transform: translateY(40);
+  }
+  to {
+    transform: translateY(-40px);
   }
 }
