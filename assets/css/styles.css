@@ -203,6 +203,8 @@ a {
 /* ========= Hero ========== */
 .hero {
   margin-top: 84px;
+  padding-bottom: 94px;
+  margin-bottom: 37px;
 }
 
 .hero__body {
