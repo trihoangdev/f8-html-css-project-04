@@ -1,0 +1,12 @@
+@keyframes move-to-left {
+  to {
+    left: -100px;
+  }
+}
+
+@keyframes move-to-right {
+  to {
+    z-index: 1;
+    right: -80px;
+  }
+}

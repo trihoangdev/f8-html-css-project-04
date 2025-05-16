@@ -1,3 +1,6 @@
+/* Import another CSS */
+@import url("./animations.css");
+
 * {
   box-sizing: border-box;
 }
@@ -245,6 +248,7 @@ a {
   height: 230px;
   left: -58px;
   bottom: 10px;
+  animation: move-to-left 3s linear 0.5s infinite alternate;
 }
 
 .hero__decor-right {
@@ -252,6 +256,7 @@ a {
   height: 100px;
   top: 16px;
   right: -40px;
+  animation: move-to-right 3s linear 0.5s infinite alternate;
 }
 
 .img-wrap__small {
