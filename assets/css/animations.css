@@ -1,13 +1,13 @@
 @keyframes move-to-left {
   to {
-    transform: translateX(-80px);
+    transform: translateX(-60px);
   }
 }
 
 @keyframes move-to-right {
   to {
     z-index: 1;
-    transform: translateX(80px);
+    transform: translateX(60px);
   }
 }
 
@@ -17,5 +17,14 @@
   }
   to {
     transform: translateY(-40px);
+  }
+}
+
+@keyframes move-down-up {
+  from {
+    transform: translateY(-40);
+  }
+  to {
+    transform: translateY(40px);
   }
 }
